@@ -68,7 +68,7 @@ terraform init
 terraform plan
 ```
 ```
-terraform deploy -auto-approve
+terraform apply -auto-approve
 ```
 _Once Terraform has finished provisioning your infrastructure, you shall have the required infrastructure:_
 1. _HTTP triggered cloud function_
